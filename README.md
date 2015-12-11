@@ -14,7 +14,7 @@ elegantly constructs the type and facilitates composition of type class instance
 serialisation, in this case combining together multiple objects of the same type into a single 
 instance. 
 
-This is fleshed out more in [SemiGroup.scala](src/main/scala/scalaexchange/SemiGroup.scala)
-which also makes us of [Simulacrum](https://github.com/mpilquist/simulacrum). If SemiGroup has 
+[SemiGroup.scala](src/main/scala/scalaexchange/SemiGroup.scala) shows some of the same ideas 
+ using [Simulacrum](https://github.com/mpilquist/simulacrum). If SemiGroup has 
 peeked your interest then you should look at a real instance, such as that in [algebra](https://github.com/non/algebra/blob/master/core/src/main/scala/algebra/Semigroup.scala),
 which you can find some documentation for [here](http://non.github.io/cats//tut/semigroup.html).
